@@ -1,0 +1,104 @@
+body {
+    background-image: url(https://cdn.registerdisney.go.com/v4/asset/bundler/ABC/v4/images/v1/abc-background-web.webp);
+    background-size: 1272px;
+}
+
+.logo-flex{
+display: flex;
+justify-content: center;
+}
+
+.logo-size{
+    padding-top: 3%;
+    width: 79.8px;
+    height: auto;
+    margin-right: 11px;
+    margin-top: 1px;
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 450px;
+  margin: 60px auto;
+  padding-top: 61px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-bottom: 58px;
+  border-radius: 25px;
+  background-color: #252526;
+  margin-top: 23px;
+}
+
+.form-block input {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px;
+}
+
+.mydisney{
+    fill: #ffffff;
+    width: 90px;
+}
+
+#email{
+    background-color: #333335;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+#continue{
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 18px;
+}
+
+.heading{
+    color: aliceblue;
+    font-family:'Arial';
+    font-size: 25px;
+    margin-top: 1px;
+}
+
+.p{
+    color: aliceblue;
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 0.1px;
+    line-height: 1.5;
+}
+
+.hr{
+    width: 100%;
+    border: 1px solid rgb(134, 134, 134);
+    margin-top: 50px;
+}
+
+.p2{
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.p3{
+    margin-top: 0px;
+    color: rgb(165, 165, 165);
+    font-family: Arial;
+    font-size: 13px;
+    
+}
+
+.more-link{
+    color: rgb(163, 174, 255);
+    text-decoration: none;
+}
+
+.logos {
+  fill: grey;  
+  display: flex;
+  gap: 10-x;  
+}
