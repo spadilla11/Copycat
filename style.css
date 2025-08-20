@@ -9,7 +9,6 @@ justify-content: center;
 }
 
 .logo-size{
-    padding-top: 3%;
     width: 79.8px;
     height: auto;
     margin-right: 11px;
@@ -51,6 +50,7 @@ justify-content: center;
 }
 
 #continue{
+    margin-top: 10px;
     border-radius: 25px;
     font-weight: bold;
     font-size: 15px;
@@ -59,17 +59,23 @@ justify-content: center;
 
 .heading{
     color: aliceblue;
-    font-family:'Arial';
-    font-size: 25px;
-    margin-top: 1px;
+    font-family:Noto Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.5625rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    /* margin-top: 1px; */
+    margin: 0;
+    padding: 0;
 }
 
 .p{
-    color: aliceblue;
-    font-family: Arial;
+    color: #f1f2f4;
+    font-family: Noto Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
     margin-top: 0.1px;
     line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 0;
 }
 
 .hr{
@@ -93,7 +99,7 @@ justify-content: center;
 }
 
 .more-link{
-    color: rgb(163, 174, 255);
+    color: #a6bff8;
     text-decoration: none;
 }
 
@@ -102,3 +108,36 @@ justify-content: center;
   display: flex;
   gap: 10-x;  
 }
+
+.my-button{
+    border-radius: 20px;
+    border-style: none;
+    background-color: grey;
+    color: #ffffff;
+    height: 30px;
+    width: 30px;
+    font-weight: bolder;
+    display: flex;
+    align-content: flex-end;
+}
+
+.my-button:hover {
+    background-color: white;
+    color: #252526;
+}
+
+.button{
+    width: 99%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+
+}
+
+
+
+
+
+
+
+
